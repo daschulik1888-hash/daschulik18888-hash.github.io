@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+header, footer{
+    background-color:brown;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding: 15px;
+}
+
+section{
+    background-color: burlywood;
+}
+
+.main-info{
+    display: flex; 
+    flex-direction: column;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-list, .contacts-list{
+    display: block;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+img{
+    margin: 15px 0;
+}
+
+.popover-elements{
+    margin: 15px 0;
+    padding: 15px;
+}
